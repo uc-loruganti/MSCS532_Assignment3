@@ -1,4 +1,5 @@
 import random
+import argparse
 
 def partition(arr, low, high):
     pivot = arr[high]
@@ -24,7 +25,11 @@ def quick_sort(arr, low, high):
         quick_sort(arr, pi + 1, high)
 
 if __name__ == "__main__":
-    sample_array = [10, 7, 8, 9, 1, 5]
-    print("Original array:", sample_array)
-    quick_sort(sample_array, 0, len(sample_array) - 1)
-    print("Sorted array:", sample_array)
+    print("Randomized Quick Sort Implementation")
+    parser = argparse.ArgumentParser(description="Randomized Quick Sort Algorithm")
+    parser.add_argument("--elements", nargs="*", type=int, help="List of integers to sort")
+    args = parser.parse_args()
+    elements = args.elements
+    print("Original array:", elements)
+    quick_sort(elements, 0, len(elements) - 1)
+    print("Sorted array:", elements)
