@@ -1,6 +1,6 @@
 # Analysis of Hash Table Performance
 
-This document analyzes the performance of hash tables, focusing on the impact of the load factor and strategies for collision resolution, with direct references to the `hashtable_universalhash.py` implementation.
+This document analyzes the performance of hash tables, focusing on the impact of the load factor and strategies for collision resolution, with direct references to the [hashtable-universalhash.py](hashtable-universalhash.py) implementation.
 
 ### Performance under Simple Uniform Hashing
 

@@ -1,5 +1,12 @@
 # MSCS532_Assignment3
 
+## Reports:
+Randomized Quick Sort analysis : [randomizeQS-analysis.md](randomizeQS-analysis.md)
+
+Deterministic vs. Randomized Quick Sort analysis : [QS-Comparison.md](QS-Comparison.md)
+
+Hash Table analysis : [hashtable-analysis.md](hashtable-analysis.md)
+
 ## Usage
 
 ### Quicksort 
@@ -62,3 +69,5 @@ Search key 15: banana
 Search key 25: cherry
 Search key 15 after deletion: None
 ```
+
+

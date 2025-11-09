@@ -2,7 +2,13 @@
 
 This document presents and analyzes the empirical running times of two Quicksort implementations: a deterministic version that always uses the first element as the pivot, and a randomized version that chooses a pivot uniformly at random.
 
-_**Note :** To analyze the performances I have a created a python script `performance_analysis.py`  to get the execution time with different sets of data._ 
+### Source code:
+Deterministic Quicksort : [deterministic_quick_sort.py](deterministic_quick_sort.py)
+
+Randomized Quicksort : [randomize_quick_sort.py](randomize_quick_sort.py)
+
+
+_**Note :** To analyze the performances I have a created a python script [performance_analysis.py](performance_analysis.py)   to get the execution time with different sets of data._ 
 
 ### Performance Results
 
@@ -33,7 +39,7 @@ The following data was collected by running `performance_analysis.py` on various
 ---
 
 
-![Alt text](QS-Comparison.png "Optional title")
+![Comparison](QS-Comparison.png "Comparison chart")
 
 ### Analysis of Results
 
