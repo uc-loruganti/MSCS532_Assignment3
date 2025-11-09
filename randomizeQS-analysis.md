@@ -1,6 +1,6 @@
 # Average-Case Analysis of Randomized Quicksort
 
-This document provides an analysis of the average-case time complexity of Randomized Quicksort, demonstrating why it is O(n log n) with direct references to the `randomize_quick_sort.py` implementation.
+This document provides an analysis of the average-case time complexity of Randomized Quicksort, demonstrating why it is O(n log n) with direct references to the [randomize_quick_sort.py](randomize_quick_sort.py) implementation.
 
 ### 1. Analysis
 
